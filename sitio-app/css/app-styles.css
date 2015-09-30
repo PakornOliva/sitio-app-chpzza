@@ -1,0 +1,38 @@
+body{
+  background: #E00000;
+}
+.banner-app{
+  background: transparent url("../img/bg-textur.png");
+  height: 100%;
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  padding-top: 89px;
+}
+.content-caract{
+  background: #ffffff;
+}
+.content-promo{
+  background: transparent url("../img/bg-textur.png");
+  height: 100%;
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.footer-app{
+  background-color: #383838;
+  height: 160px;
+}
+.navbar-wrapper {
+  background: transparent url("../img/top-Header.png") no-repeat;
+  background-position: bottom center;
+  height: 68px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.4);
+}
+.navbar {
+  background: transparent url("../img/bg-Header.png") repeat-x bottom;
+  border-bottom: 0px;
+}
