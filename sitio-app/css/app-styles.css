@@ -49,6 +49,11 @@ body{
 }
 .content-caract{
   background: #F8F8F9;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+.content-caract .col-md-4 p{
+  text-align: center;
 }
 .content-promo{
   background: transparent url("../img/bg-textur.png");
@@ -95,6 +100,8 @@ body{
     position: absolute;
     padding: 0px;
     margin-left: -15px;
+  
+  display: none;
 }
 .banner-app .banner-left{
     float: left;
@@ -132,7 +139,7 @@ body{
   background-color: #f07105;
 }
 .banner-app .banner-right{
-  background: transparent url("../img/hand-app.png") no-repeat center center;
+  background: transparent url("../img/hand-app.") no-repeat center center;
   width: 563px;
   height: 590px;
   position: relative;
@@ -154,4 +161,65 @@ body{
   margin-top: 10px;
   font-family: 'bebas_neueregular';
   font-size: 20px;
+}
+.caract-title{
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: 'bebas_neueregular';
+  color: #E00000;
+  margin-bottom: 40px;
+}
+.caract-item-title{
+  font-family: 'bebas_neueregular';
+  font-size: 30px;
+  text-align: center;
+}
+.circle-icon-mov{
+  width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #E00000;
+    position: relative;
+}
+.icon-notif{
+    background: transparent url("../img/icon-notif.png") no-repeat;
+    width: 82px;
+    height: 82px;
+    display: block;
+    line-height: 140px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+.icon-especia{
+    background: transparent url("../img/icon-espec.png") no-repeat;
+    width: 82px;
+    height: 82px;
+    display: block;
+    line-height: 140px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+.icon-ubic{
+    background: transparent url("../img/icon-ubicac.png") no-repeat;
+    width: 92px;
+    height: 82px;
+    display: block;
+    line-height: 140px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    margin: auto;
+}
+
+.promo-image{
+  background: transparent url("../img/phone-promo1.png") no-repeat;
+  width: 393px;
+  height: 456px;
+  display: block;
 }
