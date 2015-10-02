@@ -64,8 +64,8 @@ body{
   padding-top: 50px;
 }
 .footer-app{
-  background-color: #383838;
-  height: 160px;
+  background-color: #222121 ;
+  height: 200px;
 }
 .navbar-wrapper {
   background: transparent url("../img/top-Header.png") no-repeat;
@@ -79,17 +79,24 @@ body{
   background: transparent url("../img/bg-Header.png") repeat-x bottom;
   border-bottom: 0px;
 }
+.navbar-wrapper .navbar-nav>li{
+  margin-right: 1px;
+}
 .navbar-wrapper .navbar-nav>li>a{
   color: #FFFFFF;
 }
 .navbar-wrapper .navbar-nav a{
   height: 68px;
   padding: 20px 29px;
-  font-size: 18px;
+  font-size: 22px;
+  font-family: 'bebas_neueregular';
 }
 .navbar-wrapper .navbar-nav > .active > a{
   background-color: rgba(224,0,0,0.8);
   
+}
+#nav .current a{
+  background-color: rgba(224,0,0,0.8);
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>.active>a:hover{
   background-color: rgba(224,0,0,0.8);
@@ -101,6 +108,8 @@ body{
     position: absolute;
     padding: 0px;
     margin-left: -15px;
+  
+  display: none;
 }
 .banner-app .banner-left{
     float: left;
@@ -138,7 +147,7 @@ body{
   background-color: #f07105;
 }
 .banner-app .banner-right{
-  background: transparent url("../img/hand-app.png") no-repeat center center;
+  background: transparent url("../img/hand-app.") no-repeat center center;
   width: 563px;
   height: 590px;
   position: relative;
@@ -174,49 +183,73 @@ body{
   font-size: 30px;
   text-align: center;
 }
+.caract-icon{
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin: auto;
+}
 .circle-icon-mov{
   width: 140px;
-    height: 140px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background-color: #E00000;
-    position: relative;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #E00000;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  position: relative;
+}
+
+.caract-icon:hover .circle-icon-mov{
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
 }
 .icon-notif{
-    background: transparent url("../img/icon-notif.png") no-repeat;
-    width: 82px;
-    height: 82px;
-    display: block;
-    line-height: 140px;
-    text-align: center;
-    position: relative;
-    top: 30px;
-    margin: auto;
+  background: transparent url("../img/icon-notif.png") no-repeat 8px 0px;
+  width: 85px;
+  height: 82px;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 10;
 }
 .icon-especia{
-    background: transparent url("../img/icon-espec.png") no-repeat;
-    width: 82px;
-    height: 82px;
-    display: block;
-    line-height: 140px;
-    text-align: center;
-    position: relative;
-    top: 30px;
-    margin: auto;
+  background: transparent url("../img/icon-espec.png") no-repeat;
+  width: 82px;
+  height: 82px;
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  z-index: 10;
 }
 .icon-ubic{
-    background: transparent url("../img/icon-ubicac.png") no-repeat;
-    width: 92px;
-    height: 82px;
-    display: block;
-    line-height: 140px;
-    text-align: center;
-    position: relative;
-    top: 25px;
-    margin: auto;
+  background: transparent url("../img/icon-ubicac.png") no-repeat;
+  width: 92px;
+  height: 82px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 10;
 }
 .promo-image{
-    background: transparent url("../img/phone-promo1.png") no-repeat -48px 0px;
+    background: transparent url("../img/phone-promo1.") no-repeat -48px 0px;
     width: 320px;
     height: 436px;
     display: block;
@@ -234,7 +267,7 @@ body{
     top: 160px;
 }
 .promo-info-pers{
-    background: transparent url("../img/cheeseboy-promo.png") no-repeat;
+    background: transparent url("../img/cheeseboy-promo.") no-repeat;
     width: 278px;
     height: 250px;
     display: block;
@@ -242,4 +275,42 @@ body{
     z-index: 1;
     right: 0px;
     top: 100px;
+}
+#section-2, #section-3{
+  padding-top: 68px;
+  margin-top: -68px;
+ 
+}
+.icon-face{
+  background: transparent url("../img/logo-face.png") no-repeat;
+  width: 52px;
+  height: 52px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.icon-face:hover{
+  opacity: .5;
+}
+.social-container{
+  padding-top: 40px;
+}
+.link-page{
+  text-align: center;
+    margin-top: 10px;
+}
+.link-page a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'bebas_neueregular';
+  font-size: 30px;
+}
+.link-page a:hover{
+  color: #474747;
+}
+.footer-app p{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 12px;
 }

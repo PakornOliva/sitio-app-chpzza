@@ -7,7 +7,6 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
     <title>App - Cheese Pizza</title>
 
@@ -40,82 +39,97 @@
           <a class="navbar-brand logo-cheesepizza" href="#"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav pull-right">
-            <li class="active"><a href="#">Inicio</a></li>
-            <li><a href="#about">Caracteristicas</a></li>
-            <li><a href="#contact">Promociones</a></li>
+          <ul class="nav navbar-nav pull-right" id="nav">
+            <li class="current"><a href="#section-1">Inicio</a></li>
+            <li><a href="#section-2">Caracteristicas</a></li>
+            <li><a href="#section-3">Promociones</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>
         </div>
     </nav>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron banner-app">
-      <div class="container">
-        <div class="banner-left">
-          <div class="banner-title1"></div>
-          <div class="banner-title2"></div>
-          <div class="banner-panel-android">
-            <div class="panel-boton-descarga">
-              <button type="button" class="btn btn-warning btn-descargar-app">Desc&aacute;rgala ahora</button>
-            </div>
-            <div class="google-play-panel">
-              <div class="google-play-logo"></div>
-              <div class="android-text">Disponible para Android</div>
+    <div id="container">
+      <div class="jumbotron banner-app" id="section-1">
+        <div class="container">
+          <div class="banner-left">
+            <div class="banner-title1"></div>
+            <div class="banner-title2"></div>
+            <div class="banner-panel-android">
+              <div class="panel-boton-descarga">
+                <a class="btn btn-warning btn-descargar-app" href="https://play.google.com/store/apps/details?id=com.zavordigital.cheesepizza&hl=es">Desc&aacute;rgala ahora</a>
+              </div>
+              <div class="google-play-panel">
+                <div class="google-play-logo"></div>
+                <div class="android-text">Disponible para Android</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="banner-right">
+          <div class="banner-right">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="content-caract-wrapper">
-      <div class="content-caract">
-      <div class="container">
-        <!-- Example row of columns -->
-        <h2 class="caract-title">Caracter&iacute;sticas de la aplicaci&oacute;n</h2>
-        <div class="row">
-          <div class="col-md-4 notificaciones">
-            <div class="circle-icon-mov">
-              <div class="icon-notif"></div>
-            </div>
-            <h2 class="caract-item-title">Notificaciones</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          </div>
-          <div class="col-md-4 especialidades">
-            <div class="circle-icon-mov">
-              <div class="icon-especia"></div>
-            </div>
-            <h2 class="caract-item-title">Especialidades</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-         </div>
-          <div class="col-md-4 ubicaciones">
-            <div class="circle-icon-mov">
-              <div class="icon-ubic"></div>
-            </div>
-            <h2 class="caract-item-title">Ubicaciones</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <div id="section-2">
+        <div class="content-caract-wrapper">
+          <div class="content-caract">
+            <div class="container">
+              <!-- Example row of columns -->
+              <h2 class="caract-title">Caracter&iacute;sticas de la aplicaci&oacute;n</h2>
+              <div class="row">
+                <div class="col-md-4 notificaciones">
+                  <div class="caract-icon">
+                    <div class="circle-icon-mov"></div>
+                    <div class="icon-notif"></div>
+                  </div>
+                  <h2 class="caract-item-title">Notificaciones</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                </div>
+                <div class="col-md-4 especialidades">
+                  <div class="caract-icon">
+                    <div class="circle-icon-mov"></div>
+                    <div class="icon-especia"></div>
+                  </div>
+                  <h2 class="caract-item-title">Especialidades</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+               </div>
+                <div class="col-md-4 ubicaciones">
+                  <div class="caract-icon">
+                    <div class="circle-icon-mov"></div>
+                    <div class="icon-ubic"></div>
+                  </div>
+                  <h2 class="caract-item-title">Ubicaciones</h2>
+                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                </div>
+              </div>
+            </div> <!-- /container -->
           </div>
         </div>
-      </div> <!-- /container -->
-    </div>
-    </div>
-    <div class="content-promo">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4"><div class="promo-image"></div></div>
-          <div class="col-md-8">
-                      <div class="promo-info">
-          <div class="promo-info-text"></div>
-          <div class="promo-info-pers"></div>
-        </div>
-          </div>
+      </div>
+      <div id="section-3">
+        <div class="content-promo">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4"><div class="promo-image"></div></div>
+              <div class="col-md-8">
+                          <div class="promo-info">
+              <div class="promo-info-text"></div>
+              <div class="promo-info-pers"></div>
+            </div>
+              </div>
 
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    
     <footer class="footer-app">
-      <p>&copy; Company 2015</p>
+      <div class="container">
+        <div class="social-container"><a class="icon-face" href="https://www.facebook.com/PizzeriaCheesePizza"></a></div>
+        <div class="link-page"><a href="http://www.cheesepizza.com.mx">WWW.CHEESEPIZZA.COM.MX</a></div>
+        <p>&copy; Derechos Reservados 2015 Cheese Pizza M.Z. - Aviso de Privacidad</p>
+      </div>
+      
     </footer>
 
     <!-- Bootstrap core JavaScript
@@ -124,6 +138,12 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!--[if lte IE 8]><script src="jquery.min.js"></script><![endif]-->
+	<script src="js/jquery.nav.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#nav').onePageNav();
+		});
+	</script>
   </body>
 </html>
