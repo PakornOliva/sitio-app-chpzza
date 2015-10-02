@@ -61,6 +61,7 @@ body{
   background-repeat: repeat;
   background-position: center center;
   background-attachment: fixed;
+  padding-top: 50px;
 }
 .footer-app{
   background-color: #383838;
@@ -100,8 +101,6 @@ body{
     position: absolute;
     padding: 0px;
     margin-left: -15px;
-  
-  display: none;
 }
 .banner-app .banner-left{
     float: left;
@@ -139,7 +138,7 @@ body{
   background-color: #f07105;
 }
 .banner-app .banner-right{
-  background: transparent url("../img/hand-app.") no-repeat center center;
+  background: transparent url("../img/hand-app.png") no-repeat center center;
   width: 563px;
   height: 590px;
   position: relative;
@@ -216,10 +215,31 @@ body{
     top: 25px;
     margin: auto;
 }
-
 .promo-image{
-  background: transparent url("../img/phone-promo1.png") no-repeat;
-  width: 393px;
-  height: 456px;
-  display: block;
+    background: transparent url("../img/phone-promo1.png") no-repeat -48px 0px;
+    width: 320px;
+    height: 436px;
+    display: block;
+}
+.promo-info{
+  display: inline-block;
+}
+.promo-info-text{
+    background: transparent url("../img/promo-text.png") no-repeat;
+    width: 663px;
+    height: 166px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+}
+.promo-info-pers{
+    background: transparent url("../img/cheeseboy-promo.png") no-repeat;
+    width: 278px;
+    height: 250px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    top: 100px;
 }
